@@ -1,0 +1,239 @@
+{
+    "users": [
+        {
+            "id": "admin1",
+            "role": "management",
+            "name": "Raghu",
+            "email": "raghu@admin-sb.com",
+            "pwd": "pwdraghu",
+            "contact": "5636333762"
+        },
+        {
+            "id": "admin2",
+            "role": "management",
+            "name": "Mithran",
+            "email": "mithran@admin-sb.com",
+            "pwd": "pwdmithran",
+            "contact": "5636333776"
+        },
+        {
+            "id": "737",
+            "role": "customer",
+            "accountNumber": "XXXXXX737meera",
+            "name": "Meera",
+            "email": "meera@securitybank.com",
+            "pwd": "pwdmeera",
+            "contact": "3166723762"
+        },
+        {
+            "id": "5657",
+            "role": "customer",
+            "accountNumber": "XXXXXX737Viji",
+            "name": "Viji",
+            "email": "viji@securitybank.com",
+            "pwd": "pwdviji",
+            "contact": "3555672762"
+        }
+    ],
+    "services": {
+        "service-types": ["online-banking", "mobile-banking"],
+        "services": [
+            {
+                "id": "onser1",
+                "name": "Estatement",
+                "type": ["online-banking", "mobile-banking"],
+                "description": "estatement - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            },
+            {
+                "id": "onser2",
+                "name": "Payment service",
+                "type": ["online-banking", "mobile-banking"],
+                "description": "payment service - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            },
+            {
+                "id": "onser3",
+                "name": "credit card",
+                "type": ["online-banking", "mobile-banking"],
+                "description": "Credit card - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            },
+            {
+                "id": "onser4",
+                "name": "profile update",
+                "type": ["online-banking", "mobile-banking"],
+                "description": "Profile update - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            },
+            {
+                "id": "onser5",
+                "name": "Card Block",
+                "type": ["online-banking", "mobile-banking"],
+                "description": "Card Block - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            },
+            {
+                "id": "onser6",
+                "name": "SMS Card Block",
+                "type": ["mobile-banking"],
+                "description": "SMS Card Block - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }
+        ],    
+        "faq" : [
+            {
+                "id": "faq1",
+                "question": "Where can I get some?",
+                "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500"
+            },
+            {
+                "id": "faq2",
+                "question": "Why do we use it?",
+                "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500"
+            },
+            {
+                "id": "faq3",
+                "question": "Where can I get some?",
+                "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500"
+            },
+            {
+                "id": "faq4",
+                "question": "Why do we use it?",
+                "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500"
+            }
+        ]
+    },
+    "branch-details": [
+        {
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "branch-name": "Securitybank-bang-karnataka",
+            "contact": "bang.karnataka@securitybank.com",
+            "ifsc": "XXX000301",
+            "branchCode": "301"
+        },
+        {
+            "city": "Chennai",
+            "state": "TamilNadu",
+            "branch-name": "SecuritybankChen-tamilnadu",
+            "contact": "chen-tamilnadu@securitybank.com",
+            "ifsc": "XXX000302",
+            "branchCode": "302"
+        },
+        {
+            "city": "Coimbatore",
+            "state": "TamilNadu",
+            "branch-name": "SecuritybankCoim-tamilnadu",
+            "contact": "coim-tamilnadu@securitybank.com",
+            "ifsc": "XXX000303",
+            "branchCode": "303"
+        },
+        {
+            "city": "Hydrabad",
+            "state": "Telungana",
+            "branch-name": "Securitybank-hyd-telungana",
+            "contact": "hyd-telungana@securitybank.com",
+            "ifsc": "XXX000505",
+            "branchCode": "505"
+        },
+        {
+            "city": "Pune",
+            "state": "Maharastra",
+            "branch-name": "Securitybank-pune-maharastra",
+            "contact": "pune-maharastra@securitybank.com",
+            "ifsc": "XXX000707",
+            "branchCode": "707"
+        }
+    ],
+    "carousel" : [
+        {
+            "head": "Mobile Banking",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcMpcBGgk4s2NPjXObFvwMWAL5uDgNTAJnJtNoJMzRztv-hkTmlhlIJeHEwBU1-98XEoI&usqp=CAU"
+        },
+        {
+            "head": "Online Banking",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0aS4L9kUiilPrUEOI6u8WvhanOd6o6IMfBw&usqp=CAU"
+
+        },
+        {
+            "head": "24/7 Support Services",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYi3LTWQxYjy7daHif_J5QMqsAufB6IJ-mEw&usqp=CAU"
+
+        }
+    ],
+    "requests": [
+        {
+            "id": "req1",
+            "category": "request",
+            "data" : {
+                "name": "new credit card",
+                "data" : {
+                    "customerId": "737",
+                    "name": "Meera",
+                    "accountNumber": "XXXXXX737meera"
+                }
+            },
+            "raisedDate": "07/06/24",
+            "status": "in-progress",
+            "resolvedDate": ""
+        },
+        {
+            "id": "req153",
+            "category": "request",
+            "data" : {
+                "name": "new credit card",
+                "data" : {
+                    "customerId": "5657",
+                    "name": "Viji",
+                    "accountNumber": "XXXXXX737Viji"
+                }
+            },
+            "raisedDate": "07/06/24",
+            "status": "resolved",
+            "resolvedDate": "27/06/24"
+        },
+        {
+            "id": "req482",
+            "category": "request",
+            "data" : {
+                "name": "profile contact update",
+                "data" : {
+                    "customerId": "5657",
+                    "name": "Viji",
+                    "newContact": "3774918387",
+                    "oldConatct": "3166723762"
+                }
+            },
+            "raisedDate": "07/06/24",
+            "status": "in-progress",
+            "resolvedDate": ""
+        },
+        {
+            "id": "req472",
+            "category": "suggession",
+            "data" : {
+                "name": "Provide face id login facility",
+                "data" : {
+                    "customerId": "737",
+                    "name": "Meera"
+                }
+            },
+            "raisedDate": "07/07/24",
+            "status": "in-progress",
+            "resolvedDate": ""
+        },
+        {
+            "id": "req158",
+            "category": "complaint",
+            "data" : {
+                "name": "Debit card tap not working",
+                "data" : {
+                    "customerId": "5657",
+                    "name": "Viji",
+                    "accountNumber": "XXXXXX737Viji"
+                }
+            },
+            "raisedDate": "10/07/24",
+            "status": "open",
+            "resolvedDate": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+header {
+  height: 120px;
+}
+
+.navbar-brand img {
+  width: 70px;
+  mix-blend-mode: multiply;
+}
+.body-container {
+  padding-top: 150px;
+  background-color: rgb(246, 246, 246);
+}
